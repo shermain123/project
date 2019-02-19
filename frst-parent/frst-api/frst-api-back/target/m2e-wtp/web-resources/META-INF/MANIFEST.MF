@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: frst-api-back
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sher
+Implementation-Vendor-Id: com.cn
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/frst-parent/
+ frst-api/frst-api-back/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

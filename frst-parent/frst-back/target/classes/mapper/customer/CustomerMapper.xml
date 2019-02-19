@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cn.mapper.cus.CustomerMapper">
+
+	<resultMap type="com.cn.domain.cus.Customer" id="cusMap">
+		<id property="id" column="id"/>
+		<result property="cusid" column="cusid"/>
+		<result property="cusname" column="cusname"/>
+		<result property="phone" column="phone"/>
+		<result property="address" column="address"/>
+		<result property="brithday" column="brithday"/>
+		<result property="email" column="email"/>
+		<result property="destric" column="destric"/>
+		<result property="updatetime" column="updatetime"/>
+		<result property="lasttime" column="lasttime"/>
+	</resultMap>
+	
+	<select id="getCustomerList" resultMap="cusMap">
+		select * from sp_customer
+	</select>
+	
+</mapper> 
